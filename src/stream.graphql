@@ -1,0 +1,7 @@
+type StreamsPayload {
+  message: [String]
+}
+
+extend type Query {
+  streams: StreamsPayload
+}
